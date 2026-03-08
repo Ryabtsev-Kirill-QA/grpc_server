@@ -1,0 +1,19 @@
+[project]
+name = "grpc-server"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ka.riabtsev",email = "ka.riabtsev@interfax.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "grpcio-tools (>=1.78.0,<2.0.0)",
+    "pydantic (>=2.12.5,<3.0.0)",
+    "grpcio-reflection (>=1.78.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
